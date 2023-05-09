@@ -18,4 +18,4 @@ double Ackermann(double M, double N)
     else if (M > 0 && N > 0) return Ackermann(M-1, Ackermann(M, N-1));
     else if (M == 0) return N = N+1; return N;
 }
-System.Console.WriteLine(Ackermann(M, N));
+System.Console.WriteLine($"M = {M}, N = {N} -> A(m, n) = " + Ackermann(M, N));

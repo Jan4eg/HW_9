@@ -19,4 +19,5 @@ int Summ(int M, int N)
     if (M <= N) return M + Summ(M+1, N); 
     else return 0;
 }
-System.Console.WriteLine(Summ(M, N));
+System.Console.WriteLine(" ");
+System.Console.WriteLine($"-> "+ Summ(M, N));

@@ -18,4 +18,5 @@ string Recursion(int num)
     else return string.Empty;
 }
 Read();
-System.Console.WriteLine(Recursion(num));
+System.Console.WriteLine(" ");
+System.Console.WriteLine($"Число = {num} -> " + Recursion(num));
